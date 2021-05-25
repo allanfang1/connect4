@@ -1,0 +1,40 @@
+h1{
+    color: red;
+}
+
+.container{
+	text-align: center;
+}
+
+.boardContainer{
+	margin: auto;
+	display: grid;
+	width: 280px;
+	grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px
+}
+
+.btn{
+	border-color: blue;
+	border-style: none dotted dotted dotted;
+	border-width: 1px;
+}
+
+.rouge{
+	background-color: red;
+}
+
+.bleu{
+	background-color: blue;
+}
+
+.btn:hover{
+	cursor: pointer;
+	border-style: none;
+}
+
+
+
+.gameDec{
+	width: 100px;
+}
